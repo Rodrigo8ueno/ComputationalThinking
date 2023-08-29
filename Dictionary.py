@@ -152,3 +152,10 @@ titulo = "Hello world!"
 print(titulo.split())
 print(titulo.replace("world", "mundo"))
 
+print('Hello', 'world')
+print('Hello', 'world', sep=' ')
+print('Hello', 'world', sep=',')
+print('Hello', 'world')
+print('Hello', 'world', end='\n')
+rint('Hello', 'world', end='\n\n')
+print('Hello', 'world', sep=',', end='!')
