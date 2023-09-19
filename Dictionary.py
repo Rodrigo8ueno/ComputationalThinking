@@ -137,25 +137,78 @@ frase = "Hello world!"
 # frase_inteira = " ".join(frase_lista)
 # print(frase_inteira)
 
-print(frase.startswith("Hello"))
-print(frase.endswith("world!"))
-print("d!" in frase)
+# print(frase.startswith("Hello"))
+# print(frase.endswith("world!"))
+# print("d!" in frase)
+#
+# print(frase.count("Hello"))
+# print(frase.count("o"))
+#
+# print(frase.find("Hello"))
+# print(frase.find("mundo"))
+# print(frase.split())
+#
+# titulo = "Hello world!"
+# print(titulo.split())
+# print(titulo.replace("world", "mundo"))
+#
+# print('Hello', 'world')
+# print('Hello', 'world', sep=' ')
+# print('Hello', 'world', sep=',')
+# print('Hello', 'world')
+# print('Hello', 'world', end='\n')
+# rint('Hello', 'world', end='\n\n')
+# print('Hello', 'world', sep=',', end='!')
 
-print(frase.count("Hello"))
-print(frase.count("o"))
+#Aula 9 - Função (20230918)
 
-print(frase.find("Hello"))
-print(frase.find("mundo"))
-print(frase.split())
+# def soma(a, b):
+#     print(a + b)
+# soma(2, 9)
 
-titulo = "Hello world!"
-print(titulo.split())
-print(titulo.replace("world", "mundo"))
+#uma função que retorna verdadeiro ou falso, dependendo se o número é par ou ímpar
+# def ehpar(x):
+#     return x % 2 == 0
+# print(ehpar(2))
+# print(ehpar(3))
 
-print('Hello', 'world')
-print('Hello', 'world', sep=' ')
-print('Hello', 'world', sep=',')
-print('Hello', 'world')
-print('Hello', 'world', end='\n')
-rint('Hello', 'world', end='\n\n')
-print('Hello', 'world', sep=',', end='!')
+#Vamos agora definir uma função para retornar a palavra par ou ímpar:
+# def ehpar(x):
+#     return x % 2 == 0
+# def par_ou_impar(x):
+#     if ehpar(x):
+#         return "par"
+#     else:
+#
+#         return "ímpar"
+#
+# print(par_ou_impar(2))
+# print(par_ou_impar(3))
+
+
+#Escreva uma função que retorne o maior de dois números.
+#Valores esperados:
+#máximo(5, 6) = 6
+#máximo(2, 1) = 2
+# def maximo(a, b):
+#     if a > b:
+#         return a
+#     else:
+#         return b
+# print(f"máximo(5,6) = {maximo(5,6)}")
+# print(f"máximo(2,1) = {maximo(2,1)}")
+
+
+#Escreva uma função que receba dois números e retorne True se o primeiro número for múltiplo do segundo.
+#Valores esperados:
+#múltiplo(8, 4) = True
+# múltiplo(7, 3) = False
+
+# def multiplo(a, b):
+#     return a % b == 0
+# print(f"múltiplo(8, 4) = {multiplo(8, 4)}")
+# print(f"múltiplo(7, 3) = {multiplo(7, 3)}")
+
+
+
+
